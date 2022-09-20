@@ -1,12 +1,12 @@
 pipeline {
     agent any
-    environment {
-        NEXUS_VERSION = "nexus3"
-        NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "http://192.168.150.141:8081"
-        NEXUS_REPOSITORY = "java-app"
-        NEXUS_CREDENTIAL_ID = "1"
-    }
+   // environment {
+     //   NEXUS_VERSION = "nexus3"
+       // NEXUS_PROTOCOL = "http"
+        //NEXUS_URL = "http://192.168.150.141:8081"
+        //NEXUS_REPOSITORY = "java-app"
+        //NEXUS_CREDENTIAL_ID = "1"
+    //}
     stages {
         stage("Clone code from GitHub") {
             steps {
