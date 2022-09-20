@@ -39,7 +39,7 @@ pipeline {
                             groupId: 'pom.com.mycompany.app',
                             version: 'pom.1.0-SNAPSHOT',
                             repository: 'maven-central-repo',
-                            credentialsId: '1',
+                            credentialsId: 'jenkins-user',
                             artifacts: [
                                 [artifactId: 'pom.my-app',
                                 classifier: '',
